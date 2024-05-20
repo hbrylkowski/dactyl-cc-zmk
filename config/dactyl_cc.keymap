@@ -18,6 +18,10 @@
     debounce-release-ms = <30>;
 };
 
+&mt {
+    flavor = "balanced";
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
